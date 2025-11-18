@@ -1,0 +1,62 @@
+.toolsection{
+
+    padding: 80px ;
+display: flex;
+flex-direction: column;
+
+gap: 100px;
+}
+.stacks{
+  
+  font-size: 36px;
+  width: 600;
+  font-weight: 600;
+ 
+}
+.design{
+    font-size: 28px;
+    margin-bottom: 20px;
+    
+}
+.design-grid{
+   
+    display: flex;
+    flex-wrap: wrap;
+   
+    gap: 30px;
+}
+.design-image{
+     border-radius: 20px;
+  padding: 30px;
+  width: 45px;
+  height: 45px;
+  object-fit: cover;
+  background-color: white;
+  margin-bottom: 10px;
+}
+.tool-card{
+ 
+ 
+  
+  width: 100px;
+  height: 130px;
+ }
+ .desigingtools{
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+    
+ }
+ .development {
+  display: flex;
+
+  gap: 80px;
+}
+.tool-card p{
+    font-size: 0.7rem;
+    color: rgba(255, 255, 255, 0.795);
+}
+.tool-card h3{
+    font-size: 1rem;
+    margin-top: 5px ;
+}

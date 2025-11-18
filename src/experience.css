@@ -1,0 +1,94 @@
+.experience {
+  padding: 30px 60px; /* reduced side padding for tighter layout */
+  display: flex;
+  align-items: flex-start; /* aligns items at the top */
+  justify-content: space-between; /* evenly distributes space */
+  flex-wrap: wrap; /* makes it responsive on smaller screens */
+  gap: 40px; /* space between columns */
+  background-color: #1d2743; /* your dark blue bg (adjust if needed) */
+}
+
+.experience-list {
+  flex: 1; /* each column takes equal space */
+  min-width: 250px; /* prevents overflow on small screens */
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding-right: 20px;
+}
+
+.experience-1 {
+  border-right: 2px solid rgba(255, 255, 255, 0.2);
+  padding-right: 25px;
+  margin-right: 25px;
+}
+
+.experience-1:last-child {
+  border-right: none; /* remove border on last column */
+}
+
+.experience-h2 {
+  font-size: 1.5rem;
+  font-weight: 550;
+  text-transform: uppercase;
+  margin-bottom: 15px;
+  color: white;
+}
+
+h3 {
+  font-size: 1.1rem;
+  font-weight: 500;
+  margin-bottom: 4px;
+}
+
+.experience-1 p,
+.date {
+  font-size: 0.9rem;
+  color: rgba(255, 255, 255, 0.8);
+  margin: 0;
+}
+
+/* contact column */
+.contact {
+  flex: 1;
+  min-width: 250px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.experience-list ul {
+  list-style-type: none;
+}
+.experience-list-2{ 
+    display:flex;
+    flex-direction:column;
+    gap: 17px;
+    padding-right: 20px; 
+}
+.behance { 
+    display: flex;
+     align-items: center; 
+     justify-content: center; 
+     gap: 10px; } 
+.behance a{ 
+        color: white; 
+        text-decoration: underline; 
+    } 
+    .linkdin { 
+        display: flex; 
+        align-items: center; 
+        justify-content: center; 
+        gap: 10px; 
+    } 
+    .linkdin a{ color: white;
+         text-decoration: underline; 
+        } 
+        .gmail { 
+            display: flex; 
+            justify-content: center; 
+            align-items: center; 
+            gap: 10px; } 
+      .gmail a{ 
+                color: white; 
+                text-decoration: underline; 
+            }
