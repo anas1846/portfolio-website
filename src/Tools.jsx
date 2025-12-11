@@ -2,7 +2,7 @@ import React from 'react'
 import './Tools.css'
 import FigmaImg from './assets/Figma.png';
 import figjamImg from './assets/figjam.png';
-import adobeImg from './assets/adobe ai.avif';
+import adobeImg from './assets/adobeai.avif';
 import adobepcImg from './assets/adobe pc.png';
 import adobexdImg from './assets/adobe xd.png';
 import framerImg from './assets/framer logo.png';
